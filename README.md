@@ -1,6 +1,6 @@
-# Repositorio de soluciones de la promoción Q
+# Repositorio de soluciones de la promoción R
 
-Bienvenidas al repo de soluciones de la promoción Q. Yay!!
+Bienvenidas al repo de soluciones de la promoción R. Yay!!
 
 En este repo podéis que dejar vuestras soluciones a los ejercicios del temario, esto ayudará a todas las compis a entender cómo habéis resuelto cada ejercicio si tienen dudas. En programación es muy interesante ver diferentes soluciones a un problema.
 
