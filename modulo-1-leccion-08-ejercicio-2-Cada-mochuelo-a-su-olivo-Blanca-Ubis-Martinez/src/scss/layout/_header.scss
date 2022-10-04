@@ -1,0 +1,42 @@
+/*esto forma parte del ejercicio 1.8 SASS - 8.3 Mixins y funciones - 2. MediaMixins*/
+@mixin tablet {
+  @media all and (min-width:768px){
+    .header__title{
+      @content;
+  }
+}
+}
+
+@mixin desktop {
+  @media all and (min-width:1280px){
+    .header__title{
+      @content;
+  }
+}
+}
+
+@include tablet() {
+  font-size: 18px;
+}
+
+@include desktop() {
+  font-size: 20px;
+}
+/*esto forma parte del ejercicio 1.8 SASS - 8.3 Mixins y funciones - 2. MediaMixins*/
+
+.page__header {
+  background-color: aquamarine;
+  height: 75px;
+
+  @media all and (min-width: 768px){
+    height: 100px;
+  }
+  
+  @media all and (min-width: 1280px){
+    height: 110px;
+  }
+}
+
+.header__title{
+  font-size: 16px;
+}
