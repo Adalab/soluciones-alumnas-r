@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(226, 214, 214);
+  height: 100vh;
+  /* Esto da igual porque realmente por defecto ocupa siempre el 100% */
+}
+.menu {
+  background-color: green;
+}
+.content {
+  background-color: yellow;
+}
+.related {
+  background-color: grey;
+}
+.orange {
+  width: 30%;
+  height: 250px;
+  background-color: orange;
+  display: none;
+}
+@media all and (min-width: 480px) {
+  .main {
+    display: flex;
+    /* Me pondrá la caja verde al lado
+      del div de caja amarilla y gris */
+    align-items: flex-start;
+    /* Si no usamos esto por defecto el contenido hará siempre stretch
+      . Si lo indicamos así entonces solo ocupará el tamaño
+      de su contenido */
+    gap: 10px;
+  }
+  .menu {
+    width: 30%;
+  }
+  .title {
+    width: 100%;
+    /* No funciona porque flex hará todo lo posible porque todo se quede
+      en una sola fila. */
+    flex-wrap: wrap;
+    /* Aplicando esto le indico al texto: respetame el tamaño de los elementos
+      y cuando no quepan pasamelos a la siguiente fila*/
+  }
+  .orange {
+    display: block;
+    /* Para que se vea */
+  }
+  .text {
+    width: 50%;
+  }
+}
+@media all and (min-width: 480px) {
+  .lateral {
+    display: flex;
+    /* Así el div muestra la seccion amarilla al lado de la gris */
+  }
+  .content {
+    width: 70%;
+    /* el 70% de lateral*/
+  }
+  .related {
+    width: 30%;
+    /* de lateral*/
+    /* Importante redimensionar cada elemento del div
+       porque sino no se aplicará el tamaño de cada uno */
+  }
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/* .div8 {
+    height: 100px;
+    width: 100vw;
+    background-color: yellow;
+    position: fixed;
+    z-index: 999;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 16vh;
+    border: 2px solid brown;
+}
+Con estos valores consigo que el resto de divs empujen al footer y hagan que desaparezca al tener posicion fija al final.
+Se produce overflow */
+
+.div8 {
+    height: 100px;
+    width: 100vw;
+    background-color: yellow;
+    position: fixed;
+    bottom:0;
+    /*  Con bottom 0 y demas indicadores de posicion en la pantalla
+    indicamos donde queremos que se quede anclado el elemento fixed */
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 19vh;
+    border: 2px solid brown;
+}

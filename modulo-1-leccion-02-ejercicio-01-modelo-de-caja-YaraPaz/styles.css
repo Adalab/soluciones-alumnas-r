@@ -1,0 +1,27 @@
+/* div {
+    background-color: brown;
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+.img1 {
+    width:100px;
+    height:100px;
+}
+.img2 {
+    width:200px;
+    height:200px;
+} */
+div {
+    width:100px;
+    height:100px;
+    padding:10px;
+    border:5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+img {
+    width:100px;
+    height:100px;
+}

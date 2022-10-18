@@ -1,0 +1,12 @@
+article {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5cm;
+}
+/* Se puede hacer con html, body o main también*/
+
+/* aside.links {
+    color:red;
+} */

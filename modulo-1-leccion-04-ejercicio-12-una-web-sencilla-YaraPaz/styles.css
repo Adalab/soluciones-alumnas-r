@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    width:100vw;
+    min-height:100vh;
+}
+header {
+    width:100vw;
+    height:10vh;
+    background-color: rgb(247, 187, 115);
+    text-align: center;
+    padding-top: 1.3%;
+    color: rgb(124, 66, 8);
+}
+main {
+    width:100%;
+    height:100%;
+    padding:5%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+main > h1 {
+
+}
+main > h1, .parr {
+    margin:0% 5%;
+}
+footer {
+    width:100vw;
+    height:10vh;
+    background-color: rgb(247, 187, 115);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer > p {
+    width: 10%;
+    text-align: center;
+    padding:1.7%;
+    color: rgb(124, 66, 8);
+    font-size:large;
+    font-weight: bold;
+}
+.list {
+    width:150%;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 70%;
+    top:26%;
+}
+a {
+    padding: 10%;
+    text-decoration: none;
+    color: rgb(124, 66, 8);
+    font-weight: bold;
+}
+div {
+    width:20vw;
+    height:10vh;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    z-index:1;
+    bottom:0;
+    right:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+div > p {
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    color: aquamarine;
+    position:relative;
+    top:20%;
+    z-index: 2;
+}
+div > a {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    color: antiquewhite;
+    position: relative;
+    bottom: 15%;
+}

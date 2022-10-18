@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.header {
+    position: fixed;
+    top:0;
+    z-index:1;
+    /* Para que se quede fijo al scrollear */
+    background-color: violet;
+    width: 100vw;
+    height: 10vh;
+}
+.container {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    top:10vh;
+    /* Si saco el main del flujo normal y le pongo un top
+    evitamos que el header se coma la info */
+}

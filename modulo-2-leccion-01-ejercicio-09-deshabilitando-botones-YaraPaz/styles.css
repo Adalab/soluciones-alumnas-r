@@ -1,0 +1,10 @@
+.button1,
+.button2 {
+  padding: 10px;
+  border: 2px solid rgb(153, 102, 6);
+  background-color: rgb(237, 194, 115);
+  color: black;
+}
+.disabled {
+  opacity: calc(0.3);
+}

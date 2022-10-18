@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+header {
+    background-color: rgb(212, 198, 198);
+    width: 100vw;
+    height: 15vh;
+}
+main {
+    background-color: grey;
+    width: 100vw;
+    height:100vh;
+    min-height: 100vh;
+}
+footer {
+    background-color: rgb(179, 164, 5);
+    height:10vh;
+}

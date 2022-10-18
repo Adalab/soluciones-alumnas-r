@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.div1 {
+    width:500px;
+    height:500px;
+    background-color: yellow;
+    padding: 40px;
+    border: 2px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    /* Poniendo absolute en todas las cajas hacemos que
+    se usen de referencia y se apilen unas sobre otras */
+    /* Con el left y el top indicamos que se centren en el centro de la pagina */
+    /* Con transform hacemos que todas se coloquen en el centro uno dentro de otra.
+    Basicamente es aplicar lo mismo en todas para que tengan el mismo posicionamiento */
+}
+.div2 {
+    width:300px;
+    height:300px;
+    background-color: rgb(31, 174, 43);
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    padding:75px;
+}
+.div3 {
+    width:150px;
+    height:150px;
+    background-color: rgb(89, 98, 224);
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border:20px;
+}

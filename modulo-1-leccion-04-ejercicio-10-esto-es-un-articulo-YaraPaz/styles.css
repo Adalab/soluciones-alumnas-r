@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    border: 8px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: grey;
+    margin-top:106px;
+}
+.name {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.parr {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+.link {
+    padding:8px 16px;
+    margin-left: -16px;
+    color: rgb(34, 39, 180);
+}

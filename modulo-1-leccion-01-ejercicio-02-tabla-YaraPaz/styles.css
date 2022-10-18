@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+table, th, td {
+    border: 2px solid rgb(139, 67, 9);
+    border-collapse: collapse;
+}
+table {
+    text-align: center;
+    table-layout: fixed;
+    width:100%;
+}
+th {
+    background-color: rgb(251, 203, 164);
+    color:rgb(139, 67, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+td {
+    background-color:  antiquewhite;
+    padding: 1%;
+    text-align:start;
+    line-height: 200%;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul {
+    list-style: none;
+}

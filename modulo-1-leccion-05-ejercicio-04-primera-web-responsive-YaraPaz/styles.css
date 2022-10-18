@@ -1,0 +1,138 @@
+:root {
+  --fontfamily: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* MOBILE DONE */
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(179, 173, 173);
+}
+header {
+  color: black;
+  width: 100%;
+  height: 11vh;
+}
+header > h1 {
+  font-family: var(--fontfamily);
+  font-weight: bolder;
+}
+main {
+  width: 100vw;
+  height: 80vh;
+  font-family: var(--fontfamily);
+}
+aside {
+  background-color: rgb(28, 212, 35);
+}
+a {
+  color: blue;
+}
+.section {
+  width: 100%;
+  height: 63%;
+  font-size: 1.1rem;
+  background-color: yellow;
+}
+.section > h2 {
+  margin-bottom: 20px;
+}
+img {
+  display: none;
+}
+.aside2 {
+  height: 27%;
+  background-color: rgb(59, 57, 57);
+  margin-top: 23px;
+  font-size: 0.9rem;
+}
+.aside2 > h2 {
+  margin-bottom: 20px;
+}
+/* TABLET DONE */
+@media screen and (min-width: 480px) {
+  main {
+    display: flex;
+    height: 85vh;
+  }
+  .aside1 {
+    width: 30%;
+    height: 13%;
+  }
+  div {
+    width: 100vw;
+    height: 85vh;
+    margin-left: 25px;
+    margin-right: 30px;
+  }
+  .section {
+    width: 100%;
+    height: 77%;
+    font-size: 1.1rem;
+  }
+  .section > p {
+    width: 53%;
+  }
+  img {
+    display: inline-block;
+    width: 33%;
+    height: 40%;
+    background-color: orange;
+    position: absolute;
+    right: 1.5%;
+    top: 22%;
+  }
+  .aside2 {
+    display: inline-block;
+    height: 25%;
+    position: relative;
+    bottom: 7%;
+    font-size: 1rem;
+  }
+}
+/* DESKTOP PROCESS */
+@media screen and (min-width: 1000px) {
+  header {
+    font-size: 1.5rem;
+  }
+  .aside1 {
+    width: 20%;
+    height: 10%;
+  }
+  a {
+    font-size: 1.4rem;
+  }
+  div {
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
+    margin-left: 30px;
+    height: 85vh;
+  }
+  .section {
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+  }
+  .section > p {
+    width: 55%;
+  }
+  img {
+    right: 18%;
+    z-index: 1;
+    width: 30%;
+    height: 50%;
+  }
+  .aside2 {
+    height: 40%;
+    width: 25%;
+    position: relative;
+    bottom: 3%;
+    font-size: 1.29rem;
+  }
+}

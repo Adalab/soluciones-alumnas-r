@@ -1,0 +1,53 @@
+html {
+    margin:2%;
+    line-height: 30px;
+    background-color: rgb(243, 254, 255);
+}
+header h1 {
+    color:rgb(34, 102, 144);
+}
+main article h2 {
+    color:rgb(34, 102, 144);
+    font: 1.2rem;
+}
+main article p {
+    font-size: 1.2rem;
+}
+aside {
+    display:flex;
+    justify-content: space-evenly;
+}
+.section-1 {
+    padding:3%;
+    background-color: rgb(157, 201, 226);
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: solid black;
+}
+.section-1 h3{
+     color:rgb(4, 57, 88);
+}
+.section-1 p {
+    color:rgb(2, 41, 63);
+}
+.section-2 {
+    padding:3%;
+    background-color: rgb(165, 232, 232);
+    text-align: center;
+    border-radius: 10px;
+    border: solid black;
+}
+.section-2 h3{
+    color:rgb(19, 57, 80);
+}
+.section-2 p {
+    color:rgb(15, 46, 65);
+}
+ul {
+   list-style: square;
+   font-size: 1.2rem;
+}
+li strong{
+    color:rgb(15, 65, 97);
+}

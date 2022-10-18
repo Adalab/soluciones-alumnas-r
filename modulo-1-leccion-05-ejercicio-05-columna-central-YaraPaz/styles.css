@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+main {
+    margin:0px 20px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media screen and (min-width:768px) {
+    main {
+        margin:30px 40px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+@media screen and (min-width:1140px) {
+    main {
+        margin:0 auto;
+        margin-top: 190px;
+        max-width: 750px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 42px;
+    }
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }  
+}
