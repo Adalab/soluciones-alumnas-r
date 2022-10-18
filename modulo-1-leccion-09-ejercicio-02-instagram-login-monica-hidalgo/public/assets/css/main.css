@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.logo {
+  width: 300px; }
+
+.title {
+  color: grey;
+  font-size: 25px;
+  width: 420px;
+  text-align: center; }
+
+.button__facebook {
+  width: 420px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1980ee;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+.button__facebook--text {
+  width: 300px;
+  background-color: red;
+  margin: 0; }
+
+.icon__facebook {
+  background-color: green; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; }
+
+.form__input {
+  width: 420px;
+  padding: 15px;
+  font-size: 18px;
+  color: grey;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: grey;
+  opacity: 80%; }
+
+.text__info {
+  padding-top: 16px;
+  width: 440px;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px; }
+
+.text__conditions {
+  width: 440px;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  letter-spacing: 0.5px; }
+
+.bold {
+  font-weight: bold; }
+
+.button__next {
+  width: 420px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1980ee;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  opacity: 50%; }
+
+/*# sourceMappingURL=main.css.map */

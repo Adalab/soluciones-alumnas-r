@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: rgb(204, 146, 227);
+    height: 10vh;
+    width: 100vw;
+}
+main {
+    background-color: aquamarine;
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: inline;
+}
+.section-top {
+    background-color: blue;
+    height: 45vh;
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+}
+aside {
+    background-color: brown;
+    height: 45vh;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+}
+.section-bottom {
+    background-color: rgb(255, 0, 221);
+    height: 25vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: rgb(204, 146, 227);
+    height: 10vh;
+    width: 100vw;
+}

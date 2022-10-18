@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Viewport Sample</title>
+    <style>
+        .body {
+  background: red;
+    }
+    @media all and (min-width: 480px) {
+        .body {
+            background: yellow;
+        }
+    @media all and (min-width: 768px) {
+        .body {
+            background: green;
+        }
+    }    
+
+    </style>
+  </head>
+  <body class="body">
+    <div class="box"></div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 30px;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__form--input {
+    width: 200px;
+    margin-bottom: 20px;
+}

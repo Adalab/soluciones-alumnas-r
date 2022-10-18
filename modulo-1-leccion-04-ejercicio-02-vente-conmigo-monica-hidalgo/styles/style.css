@@ -1,0 +1,13 @@
+.header {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+    z-index: 100;
+}
+.main {
+    position: relative;
+    top:150px;
+    left: 30px;
+    width: 80%;
+}

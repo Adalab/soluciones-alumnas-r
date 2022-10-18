@@ -1,0 +1,36 @@
+.ejercicio-div-block {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: block;
+}
+.ejercicio-div-inline {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display:inline;
+}
+.ejercicio-div-inlineblock {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: inline-block;
+}
+.imagen-ninio{
+    width: 100px;
+    height: 100px;
+}
+.ejercicio-div-ajustandoimagenes{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px black;
+    /* box-sizing: border-box; */
+    margin: auto;
+ 
+}
+.imagen-niniobox{
+    width: 100px;
+    height: 100px;
+}

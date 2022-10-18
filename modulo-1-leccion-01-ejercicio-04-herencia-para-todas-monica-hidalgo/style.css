@@ -1,0 +1,13 @@
+body {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 150%;
+}
+
+
+
+.links {
+    color: red;
+}

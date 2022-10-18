@@ -1,0 +1,38 @@
+.main {
+    background-color: rgb(216, 214, 214);
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.main h1 {
+    margin-bottom: 40px;
+}
+.green-section {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+}
+.yellow-section {
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+.yellow-section p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.info-section {
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info-section p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}

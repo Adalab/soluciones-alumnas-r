@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Rubik Dirt";
+    color:  rgb(155, 34, 176);
+}
+table {
+    background-color: aquamarine;
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+
+th {
+    background-color: rgb(155, 34, 176);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+td {
+    letter-spacing: 1px;
+}
