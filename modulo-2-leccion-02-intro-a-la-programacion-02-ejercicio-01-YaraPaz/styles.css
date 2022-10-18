@@ -1,0 +1,13 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+.highlight {
+  color: rgb(105, 43, 251);
+  background-color: rgb(41, 212, 235);
+  border: blue;
+  font-weight: bold;
+}
