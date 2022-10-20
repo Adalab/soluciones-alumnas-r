@@ -1,0 +1,11 @@
+.button{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
+
+.buttonUpdate{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+}
