@@ -1,0 +1,8 @@
+.div {
+  width: 30px;
+  height: 30px;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
