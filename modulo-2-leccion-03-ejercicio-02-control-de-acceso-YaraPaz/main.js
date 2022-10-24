@@ -1,12 +1,13 @@
 'use strict';
 
-let allowedUserName = '';
-let input = document.querySelector('#username');
-let inputValueAttribute = input.setAttribute('value', `${allowedUserName}`);
+let allowedUserName = 'Sara';
+const input = document.querySelector('#username');
+// let inputValueAttribute = input.setAttribute('value', `${allowedUserName}`);
+input.value = allowedUserName;
 let inputValueInfo = document.getElementById('username').value;
 let text = document.querySelector('.text');
 
-if (inputValueInfo === 'Maria') {
+if (inputValueInfo === 'María') {
   text.innerHTML = `Bienvenida, ${allowedUserName}`;
 } else if (inputValueInfo === '') {
   text.innerHTML = 'Introduce un nombre de usuario';
