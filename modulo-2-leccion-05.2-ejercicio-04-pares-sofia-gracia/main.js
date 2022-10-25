@@ -19,10 +19,10 @@ function getEl(a){
 
 //combinar las 2 funciones, eliges del HTML el número, lo convierte en número y avisa si es par o no.
 
-const element = getEl ('.paragraph').innerHTML;
+const number = parseInt (getEl ('.paragraph').innerHTML);//conviertes en número el HTML todo en la misma línea, fantasía
 
-const number = parseInt(element) ;
 const result = par(number);
+
 if (result){
     console.log('este número es par');
 }else {
