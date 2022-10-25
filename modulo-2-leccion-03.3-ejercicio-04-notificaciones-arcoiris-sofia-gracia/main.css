@@ -1,0 +1,20 @@
+/*.container {
+    background-color: aquamarine;
+}*/
+
+.sucess {
+    border: solid green;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.error {
+    border: solid red;
+    background-color: lightyellow;
+    color: darkred;
+}
+.warning {
+    border: solid yellow;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
