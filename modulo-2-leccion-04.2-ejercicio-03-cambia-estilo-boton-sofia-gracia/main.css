@@ -1,0 +1,13 @@
+
+
+.inactive {
+    background-color: grey;
+    color:black;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active {
+    background-color: pink;
+    color:black;
+    font: bold;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
