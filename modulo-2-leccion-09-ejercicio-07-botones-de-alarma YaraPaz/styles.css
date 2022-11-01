@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.alarm {
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  gap: 10px;
+}
+.btn {
+  background-color: white;
+  color: red;
+  text-transform: uppercase;
+  border: solid rgb(197, 12, 12) 2px;
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+.form__btn {
+  width: 50px;
+  height: 25px;
+  background-color: rgb(46, 172, 130);
+  border: none;
+  border-radius: 5px;
+}
+.form__input {
+  background-color: rgb(180, 187, 187);
+  border: none;
+  border-radius: 5px;
+}
