@@ -1,0 +1,8 @@
+.crossed {
+  text-decoration: line-through;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
