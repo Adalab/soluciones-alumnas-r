@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
