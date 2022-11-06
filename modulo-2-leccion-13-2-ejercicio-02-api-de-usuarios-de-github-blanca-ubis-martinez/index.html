@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Ejercicio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Buscador de usuarios en GitHub</h1>
+    </header>
+    <main>
+        <form action="">
+            <input class="js-input-user" type="text" name="login" id="login">
+            <button class="js-btn-search">Buscar</button>
+        </form>
+        <section class="results js-results hidden">
+            <h2 class="js-results-title">Resultados</h2>
+            <article class="name">
+                <h3 class="js-name-title">Nombre</h3>
+                <p class="js-name"></p>
+            </article>
+            <article class="photo">
+                <h3 class="js-photo-title">Foto</h3>
+                <img class="js-photo" />
+            </article>
+            <article class="repo">
+                <h3 class="js-repo-title">Número de repositorios</h3>
+                <p class="js-repo"></p>
+            </article>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
