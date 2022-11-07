@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="tienda de camisetas molonas">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de camisetas molonas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="hidden">Listado de camisetas</h1>
+        <section class="tshirts js_Tshirts">
+
+        </section>
+
+        <section>
+            <article>
+                <h2>Cesta de la compra</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Unidades</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="js_cart">
+
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h2>¿Dónde te lo enviamos?</h2>
+                <form class="form" action="">
+                    <label for="address">Dirección</label>
+                    <input class="input js_address" type="text" name="address" id="address">
+                    <label for="city">Ciudad</label>
+                    <input class="input js_city" type="text" name="city" id="city">
+                    <label for="zip">Código postal</label>
+                    <input class="input js_zip" type="number" name="zip" id="zip">
+                    <p class="js_text"></p>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <small>La tienda de camisetas</small>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
