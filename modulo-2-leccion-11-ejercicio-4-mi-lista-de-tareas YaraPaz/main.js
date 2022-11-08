@@ -6,23 +6,37 @@
 // Permitir marcar una tarea como 'completa' o 'incompleta'.
 
 //Elements
-const tasks = [
-  { name: 'Recoger setas en el campo', completed: true, index: 0 },
-  { name: 'Comprar pilas', completed: true, index: 1 },
-  { name: 'Poner una lavadora de blancos', completed: true, index: 2 },
-  {
-    name: 'Aprender cómo se realizan las peticiones al servidor en JavaScript',
-    completed: false,
-    index: 3,
-  },
-];
 const list = document.querySelector('.js_list');
 const trackText = document.querySelector('.js_text');
 let completed = 0;
 let toDo = 0;
+let tasks = [];
+
+//Fetch
+const tasksLS = JSON.parse(localStorage.getItem('tasks'));
+if (tasksLS != null) {
+  tasks = tasksLS;
+  paintTask(); //siempre que recuperamos valores debemos pintarlos
+} else {
+  getTasks();
+}
+
+function getTasks() {
+  fetch('https://dev.adalab.es/api/todo')
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data.results);
+      tasks = data.results; //siempre ponerlo en este orden, nunca al revés. Ponemos data results porque es la forma de acceder a la info de la api
+      for (let i = 0; i < tasks.length; i++) {
+        tasks[i].index = i;
+      }
+      paintTask();
+      console.log(tasks);
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+    });
+}
 
 //Functions
-
 function handleClick(ev) {
   let clickedEl = ev.currentTarget.id; //como he amañado que el id del elemento sea igual a su posición puedo acceder a él con el currentTarget y aplicarlo abajo para decirle...
   tasks[clickedEl].completed = !tasks[clickedEl].completed; //que en el array de tasks en la posicion del elemento clickado (que resulta que coincide con la de su id. Atributo gancho) me cambie su completed de true a false (como son valores booleanos podemos hacer esto, sino tendriamos que crear un castillote de ifs)
