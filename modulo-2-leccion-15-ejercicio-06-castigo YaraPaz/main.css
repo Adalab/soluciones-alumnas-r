@@ -1,0 +1,23 @@
+.js_main {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+.blue {
+  color: rgb(65, 65, 147);
+}
+.red {
+  color: rgb(169, 91, 91);
+}
+.green {
+  color: rgb(117, 179, 119);
+}
+.yellow {
+  color: rgb(153, 152, 80);
+}
+.pink {
+  color: rgb(193, 89, 167);
+}
