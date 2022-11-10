@@ -13,7 +13,7 @@ const winner = runners.reduce((acc, winner) => {
     const acc = {};
     acc.name = winner.name;
     acc.time = winner.time;
-    return acc;
+    // return acc;
   }
   return acc;
 });

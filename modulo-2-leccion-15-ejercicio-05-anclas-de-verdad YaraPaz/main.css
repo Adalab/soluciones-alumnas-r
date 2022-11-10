@@ -1,0 +1,15 @@
+#section1 {
+  width: 100vw;
+  height: 500px;
+  background-color: antiquewhite;
+}
+#section2 {
+  width: 100vw;
+  height: 500px;
+  background-color: rgb(194, 116, 13);
+}
+#section3 {
+  width: 100vw;
+  height: 500px;
+  background-color: rgb(102, 80, 50);
+}

@@ -15,7 +15,7 @@ const studentsWinner = students.reduce((acc, student) => {
     const acc = {};
     acc.name = student.name;
     acc.time = student.time;
-    return acc;
+    // return acc;
   }
   return acc;
 });

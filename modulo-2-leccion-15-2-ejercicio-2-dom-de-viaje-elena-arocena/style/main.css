@@ -1,0 +1,11 @@
+.wrap-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+}

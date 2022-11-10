@@ -1,0 +1,10 @@
+.js_main {
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  color: black;
+}
+
+.collapsed {
+  display: none;
+}
